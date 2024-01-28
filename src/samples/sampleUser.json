@@ -1,0 +1,11 @@
+{
+    "firstName": "John",
+    "lastName": "Smith",
+    "birthDate": "2020-05-11T20:14:14.796Z",
+    "email": "john@smith.com",
+    "gender": "male",
+    "password": "test1234",
+    "experience": 200000,
+    "role": "user"
+    
+}
