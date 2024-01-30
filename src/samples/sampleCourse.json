@@ -1,0 +1,46 @@
+{
+    "_id": {
+        "$oid": "65b8008f8dbb6b38bb3acada"
+    },
+    "name": "Mülltrennung",
+    "description": "Dieser Kurs behandelt Mülltrennung und alles, was man darüber wissen muss.",
+    "image": "assets/images",
+    "category": "Alltag",
+    "structure": [
+        {
+            "title": "Arten der Mülltrennung",
+            "lessons": [
+                "Test",
+                "Test 2",
+                "Test 3",
+                "Test 4"
+            ]
+        },
+        {
+            "title": "Was muss man beachten?",
+            "lessons": [
+                "Test",
+                "Test 2",
+                "Test 3",
+                "Test 4"
+            ]
+        },
+        {
+            "title": "Wo gibt es Ausnahmen?",
+            "lessons": [
+                "Test",
+                "Test 2",
+                "Test 3",
+                "Test 4"
+            ]
+        },
+        {
+            "title": "Welche Auswirkungen hat (keine) Mülltrennung?",
+            "lessons": [
+                "Test",
+                "Test 2",
+                "Test 3",
+                "Test 4"]
+        }
+    ]
+}

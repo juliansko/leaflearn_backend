@@ -1,6 +1,5 @@
 import { Types } from "mongoose";
 import { LoginModel } from "../models/loginAttemptsModel";
-import { callbackify } from "util";
 
 export async function failedLoginAttempt(user: Types.ObjectId) {
     const login = await LoginModel.findOne({userID: user});

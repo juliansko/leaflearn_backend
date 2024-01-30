@@ -1,0 +1,8 @@
+{
+    "_id": {
+        "$oid": "65b804f08dbb6b38bb3acadb"
+    },
+    "title": "Einführung",
+    "type": "video",
+    "filePath": "assets/videos/muelltrennung/01/einfuehrung.mp4"
+}

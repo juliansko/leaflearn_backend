@@ -11,6 +11,7 @@ export interface UserInterface {
     password: string;
     experience: number;
     role: string;
+    courses: Schema.Types.ObjectId[];
     avatar?: string;
 }
 
@@ -24,6 +25,7 @@ const userSchema = new Schema<UserInterface>({
     password: { type: String, required: true },
     experience: { type: Number, required: true },
     role: { type: String, enum: ["user", "admin"], required: true },
+    courses: [{ type: [Schema.Types.ObjectId], required: true}],
     avatar: { type: String },
 });
 
