@@ -12,7 +12,7 @@ const app = express();
 
 // makes express able to parse json body from responses
 app.use(express.json());
-app.use(cors({origin: 'https://leaflearn.de' }));
+app.use(cors());
 
 // gets port either from environment variable or sets it to 3000 if not found
 const port = process.env.PORT || 3000;
